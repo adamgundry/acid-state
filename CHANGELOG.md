@@ -1,3 +1,22 @@
+0.15.0
+======
+
+ - depend on filelock library to avoid locking bug
+   ([#89](https://github.com/acid-state/acid-state/issues/89))
+ - permit events that are polymorphic in the base monad, with a MonadReader/MonadState constraint
+   ([#94]((https://github.com/acid-state/acid-state/pull/56)))
+ - add a test suite and extend examples
+   ([#98](https://github.com/acid-state/acid-state/pull/98))
+ - fix a minor memory leak
+   ([#104](https://github.com/acid-state/acid-state/pull/104))
+ - expose internal modules (subject to change in the future)
+
+0.14.3
+======
+
+ - support building on GHC 8.2
+ - update links from seize.it to github.com
+
 0.14.2
 ======
 
